@@ -2,7 +2,7 @@
 
 Infrastructure as Code with Terraform and AWS.
 
-Training for Lowcomote Project at UAM, Madrid, 2020.02.21
+Training for [Lowcomote Project](https://www.lowcomote.eu) at UAM, Madrid, 2020.02.21
 
 ## Prerequisites
 
