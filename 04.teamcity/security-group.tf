@@ -42,7 +42,7 @@ resource "aws_security_group" "sg_lowcomote" {
     to_port     = 80
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
-    description = "expose 80 to outside (htst enabled: redirected to 443)"
+    description = "expose 80 to outside"
   }
   ingress {
     from_port   = 9000

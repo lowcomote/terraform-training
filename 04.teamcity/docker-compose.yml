@@ -3,4 +3,4 @@ services:
   teamcity:
     image: sjoerdmulder/teamcity
     ports:
-      - "8111:8111"
+      - "80:8111"
