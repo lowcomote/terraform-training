@@ -3,13 +3,13 @@
 ## Launch containers
  
 # portainer
-docker run --name portainer -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+docker run -d --name portainer -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 
 # rabbitmq
-docker run -d -hostname rabbit --name rabbit rabbitmq:alpine
+docker run -d --hostname rabbit --name rabbit rabbitmq:alpine
 
 # redis
-docker run --name redis -d redis:alpine
+docker run -d --name redis redis:alpine
 
 
 # consul
