@@ -36,3 +36,5 @@ Training for [Lowcomote Project](https://www.lowcomote.eu) at UAM, Madrid, 2020.
 ## Credits
 
 (c) [Metadev](https://metadev.pro) 2020 for Lowcomote Project.
+
+Licensed under [CC Attr. 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
