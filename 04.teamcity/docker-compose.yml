@@ -1,6 +1,5 @@
 version: '2'
 services:
-
   teamcity:
     image: sjoerdmulder/teamcity
     ports:

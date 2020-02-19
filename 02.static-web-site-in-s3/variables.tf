@@ -19,5 +19,4 @@ variable "region" {
 variable "bucket_name" {
   description = "S3 bucket name to use"
   type        = string
-  default     = "demo-lowcomote-site"
 }
