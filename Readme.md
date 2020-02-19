@@ -33,8 +33,9 @@ Training for [Lowcomote Project](https://www.lowcomote.eu) at UAM, Madrid, 2020.
 
 7. Destroy with `terraform apply`
 
-## Credits
+## License
 
+Licensed under CC BY [![CC BY](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
 (c) [Metadev](https://metadev.pro) 2020 for Lowcomote Project.
 
-Licensed under [CC Attr. 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
+The [Lowcomote Project](https://www.lowcomote.eu) has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement n° 813884.
