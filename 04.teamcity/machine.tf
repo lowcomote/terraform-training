@@ -36,6 +36,7 @@ resource "aws_instance" "machine01" {
       "sudo service docker start",
       "sudo docker run --name portainer -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer",
       "sudo /usr/local/bin/docker-compose up -d",
+      "mkdir /home/ec2-user/buildagent",
       "free"
     ]
   }
@@ -43,6 +44,10 @@ resource "aws_instance" "machine01" {
   provisioner "file" {
     source      = "docker-compose.yml"
     destination = "/home/ec2-user/docker-compose.yml"
+  }
+  provisioner "file" {
+    source      = "buildagent/Dockerfile"
+    destination = "/home/ec2-user/buildagent/Dockerfile"
   }
 
   provisioner "remote-exec" {
