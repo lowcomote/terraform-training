@@ -31,7 +31,7 @@ Training for [Lowcomote Project](https://www.lowcomote.eu) at UAM, Madrid, 2020.
 
 6. Deploy with `terraform apply`
 
-7. Destroy with `terraform apply`
+7. Destroy with `terraform destroy`
 
 ## License
 
