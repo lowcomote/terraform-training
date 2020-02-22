@@ -33,6 +33,14 @@ Training for [Lowcomote Project](https://www.lowcomote.eu) at UAM, Madrid, 2020.
 
 7. Destroy with `terraform destroy`
 
+## Key Permissions
+
+When using *.pem files for SSH (especially on Mac OS and Linux) ensure key file has read persmissions for the user only with the command:
+
+```bash
+chmod 600 <file>.pem
+```
+
 ## License
 
 Licensed under CC BY [![CC BY](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
